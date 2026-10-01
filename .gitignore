@@ -1,0 +1,20 @@
+# ambiente e cache
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+
+# dados brutos (baixados da ANA/IBGE; reproduzíveis pelo ETL)
+data/raw/
+
+# material de apresentação
+Apresentacao_*.pdf
+
+# editor e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
